@@ -26,3 +26,10 @@ Max Epochs: 200
 # Overview of the proposed structure for quality measurement
 <img width="469" height="313" alt="image" src="https://github.com/user-attachments/assets/93b7ad22-4e63-4222-9c53-3be77f4c4acc" />
 
+Overview of the proposed adapters structure
+<img width="223" height="328" alt="image" src="https://github.com/user-attachments/assets/121f15e6-0138-4921-b13d-e401deeee0d6" />
+
+Proposed feature mapping block
+<img width="477" height="288" alt="image" src="https://github.com/user-attachments/assets/63cbbad0-971c-41dc-abb3-250b8580d39f" />
+
+

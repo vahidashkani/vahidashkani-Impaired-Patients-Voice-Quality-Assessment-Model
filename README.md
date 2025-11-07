@@ -1,4 +1,8 @@
 # Automated Severity and Breathiness Assessment of Disordered Speech Using a Speech Foundation Model
+In this study, we propose a novel automated model for speech quality estimation that objectively evaluates perceptual dysphonia severity and breathiness in audio samples, demonstrating strong agreement with expert ratings. The proposed model integrates Whisper ASR embeddings with Mel spectrograms augmented by second-order delta features combined with a sequential-attention fusion network feature mapping path. This hybrid approach enhances the model’s sensitivity to phonetic, high level feature rep-resentation and spectral variations, enabling more accurate predictions of perceptual speech quality. A sequential-attention fusion network feature mapping module captures long-range dependencies through the multi-head attention network, while LSTM layers refine the learned representations by modeling temporal dynamics. Comparative analysis against state-of-the-art methods for dysphonia assessment demonstrates our model’s better generalization across test samples. Our findings underscore the effec-tiveness of ASR-derived embeddings alongside the deep feature mapping structure in speech quality assessment, offering a promising pathway for advancing automated evaluation systems.
+
+
+
 For transparency, all hyperparameters, model configurations, and data splits are documented here:
 
 Model: Whisper-Small (encoder frozen) + GRBASPredictor (3-layer LSTM, attention, adapters)
